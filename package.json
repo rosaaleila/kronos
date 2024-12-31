@@ -4,7 +4,6 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "jest --watchAll --collectCoverage",
     "dev:build": "tsc",
     "dev": "tsc -p tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist"
   },
