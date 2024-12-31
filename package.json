@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "dev:build": "tsc",
-    "dev": "tsc -p tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist"
+    "dev": "nodemon"
   },
   "_moduleAliases": {
     "@presentation": "dist/presentation",

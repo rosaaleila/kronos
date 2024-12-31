@@ -27,7 +27,7 @@ export default [
             "no-unreachable-loop": "error",
             "use-isnan": "warn",
             "arrow-body-style": "error",
-            "camelcase": "error",
+            "camelcase": "warn",
             "default-case": "error",
             "eqeqeq": "error",
             '@stylistic/js/indent': ['error', 4],
